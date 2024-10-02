@@ -1,0 +1,14 @@
+services:
+  app:
+    restart: no
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile
+    volumes:
+      - ./composer.json:/app/composer.json
+      - ./composer.lock:/app/composer.lock
+      - ./vendor:/app/vendor
+      - ./src:/app/src
+      - ./tests:/app/tests
+      - ./phpstan.neon:/app/phpstan.neon
+      # - ./phpunit.xml:/app/phpunit.xml

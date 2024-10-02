@@ -1,0 +1,23 @@
+{
+  "name": "m1khal3v/php-functional-options",
+  "description": "Functional Options pattern examples",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Anton Mikhalev",
+      "email": "m1kh@l3v.moscow"
+    }
+  ],
+  "autoload":{
+    "psr-4": {
+      "FunctionalOptions\\": "src/"
+    },
+    "files": [
+      "src/PHPStan/Options.php"
+    ]
+  },
+  "require-dev": {
+    "phpstan/phpstan": "^1.12",
+    "phpunit/phpunit": "^11.3"
+  }
+}
