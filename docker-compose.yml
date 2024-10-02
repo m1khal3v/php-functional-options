@@ -3,7 +3,6 @@ services:
     restart: no
     build:
       context: .
-      dockerfile: ./docker/Dockerfile
     volumes:
       - ./composer.json:/app/composer.json
       - ./composer.lock:/app/composer.lock
