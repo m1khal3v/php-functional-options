@@ -13,7 +13,8 @@
       "FunctionalOptions\\": "src/"
     },
     "files": [
-      "src/PHPStan/Options.php"
+      "src/PHPStan/Options.php",
+      "src/TypeSafe/Options.php"
     ]
   },
   "require-dev": {
